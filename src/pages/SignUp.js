@@ -1,11 +1,14 @@
 import React from "react";
+import "./SignUp.css";
+import { Link } from "react-router-dom";
 
 function SignUp() {
   return (
-    <div className="SignUp">
+    <div className="container">
+      <div className="SignUp">
       <h3>Sign up with your email</h3>
       <span className="account">
-        Already have an account? <a href="#w">Sign in</a>
+        Already have an account? <Link to={"/SignIn"}>Sign in</Link>
       </span>
       <form>
         <input
@@ -38,9 +41,12 @@ function SignUp() {
           I agree to the <a href="#www">Terms of service</a> and{" "}
           <a href="#ww">Privacy policy</a>
         </span>
-        <button>Create account</button>
+        <button className="signup_btn">Create account</button>
       </form>
     </div>
+
+    </div>
+    
   );
 }
 export default SignUp;

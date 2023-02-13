@@ -3,9 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+.App{
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  height: 100vh;
+}
 body {
   font-size: 16px;
   align-items: center;
+  height: 100vh;
 }
 h1,
 h2,
@@ -18,77 +25,3 @@ h5 {
   letter-spacing: -0.05em;
   font-weight: 600;
 }
-.account {
-  margin-left: 30px;
-  margin-bottom: 10px;
-}
-.SignUp {
-  max-width: 500px;
-  width: 100%;
-  height: 500px;
-  margin: 0 auto;
-  margin-top: 90px;
-  border: 2px solid grey;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
- 
-}
-.SignIn {
-  max-width: 500px;
-  width: 100%;
-  height: 350px;
-  margin: 0 auto;
-  margin-top: 100px;
-  margin-bottom: 10px;
-  border: 2px solid grey;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
-}
-
-.text-field {
-  max-width: 400px;
-  width: 100%;
-  padding: 10px 5px;
-  display: block;
-  text-align: start;
-}
-input {
-  padding: 10px 5px;
-  margin-left: 30px;
-  margin-top: 20px;
-  text-align: start;
-}
-.checkbox {
-  margin-right: 10px;
-}
-button {
-  margin-left: 30px;
-  margin-top: 20px;
-  padding: 9px 5px;
-  max-width: 400px;
-  width: 100%;
-  border: none;
-  color: gray;
-}
-button:hover {
-  background-color: rgb(76, 13, 136);
-  color: aliceblue;
-}
-a {
-  text-decoration: none;
-  color: rgb(163, 87, 235);
-}
-.checkbox input:checked ~ .check {
-  background-color: rgb(163, 87, 235);
-}
-.Forgot {
-  margin-right: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center; 
-}
-
